@@ -7,3 +7,4 @@
 -Learned more about media queries.  
 -Assigning new classes and removing them with Javascript...
 ### Screenshot:
+![Capture](https://user-images.githubusercontent.com/13581320/101318808-33625e80-3861-11eb-9068-7af50a64dfb1.PNG)
