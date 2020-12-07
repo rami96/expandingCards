@@ -3,7 +3,7 @@
 }
 
 body{
-    width: 100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,5 +48,8 @@ body{
 @media(max-width: 480px){
     .container {
         width: 100vw;
+    }
+    .panel:nth-of-type(4),.panel:nth-of-type(5){
+        display: none;
     }
 }
