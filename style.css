@@ -3,8 +3,10 @@
 }
 
 body{
+    font-family: 'JetBrains Mono', monospace;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -12,7 +14,8 @@ body{
 
 .container{
     display: flex;
-    width: 90vw;
+    flex-direction: row;
+    width: 80vw;
 }
 .panel{
     background-size: auto 100%;
@@ -41,8 +44,9 @@ body{
     flex: 5;
 }
 
-.panel.active {
+.panel.active h3{
     opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
 }
 
 @media(max-width: 480px){
